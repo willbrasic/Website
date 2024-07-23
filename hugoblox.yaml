@@ -1,2 +1,11 @@
 build:
   hugo_version: '0.126.3'
+
+
+baseURL: "https://williambrasic.com/"
+languageCode: "en-us"
+title: "William Brasic"
+theme: "academic"
+
+params:
+  author: "William Brasic"
