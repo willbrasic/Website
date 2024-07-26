@@ -42,7 +42,6 @@ jobs:
         git config --global user.email 'github-actions[bot]@users.noreply.github.com'
         cd public
         git init
-        git remote add origin https://x-access-token:${{ secrets.GH_PAT }}@github.com/willbrasic/willbrasic.github.io.git
         git add .
         git commit -m "Deploy website"
         git push --force origin main:gh-pages
